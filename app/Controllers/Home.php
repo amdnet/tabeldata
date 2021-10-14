@@ -28,8 +28,9 @@ class Home extends BaseController
                 $no++;
                 $row = [];
                 $row[] = $no;
+                $row[] = $list->username;
                 $row[] = $list->name;
-                $row[] = $list->email;
+            //    $row[] = $list->email;
                 $data[] = $row;
             }
 

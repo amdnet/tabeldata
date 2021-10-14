@@ -29,8 +29,8 @@
                             <thead>
                                 <tr>
                                     <td>No</td>
-                                    <td>Nama</td>
-                                    <td>Email</td>
+                                    <td>Username</td>
+                                    <td>Name</td>
                                 </tr>
                             </thead>
                             <tbody>

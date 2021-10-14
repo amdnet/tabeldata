@@ -8,9 +8,9 @@ use CodeIgniter\Model;
 class UserDatatable extends Model
 {
     protected $table = 'users';
-    protected $column_order = ['id', 'nama', 'email'];
-    protected $column_search = ['nama', 'email'];
-    protected $order = ['id' => 'DESC'];
+    protected $column_order = ['username', 'name'];
+    protected $column_search = ['username', 'name'];
+ //   protected $order = ['id' => 'DESC'];
     protected $request;
     protected $db;
     protected $dt;
